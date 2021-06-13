@@ -1,0 +1,22 @@
+@import url('./_variables.css');
+
+.title, .blocktitle {
+  font-family: var(--font_2);
+  font-weight: 400;
+  color: var(--black-opacity);
+  font-size: 1.3rem;
+}
+
+.blocktitle--center {
+  text-align: center;
+}
+
+.subtitle, .blocktitle span {
+  font-family: var(--font_1);
+  font-weight: 900;
+  display: block;
+  color: var(--black);
+  margin-top: 1rem;
+  font-size: 2rem;
+  line-height: 37px;
+}

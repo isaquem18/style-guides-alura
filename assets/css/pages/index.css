@@ -1,0 +1,159 @@
+@import url('../components/_container.css');
+@import url('../components/_global.css');
+@import url('../components/_fonts.css');
+@import url('../components/_input.css');
+@import url('../components/_buttons.css');
+@import url('../components/_products.css');
+
+body {
+  background: url('/assets/images/icons/slash--top.svg') -10px 35px / 33rem 50rem no-repeat;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header button {
+  background-color: transparent;
+  border: 0;
+}
+
+.home__paragraph {
+  margin-top: 12px;
+  width: 12.5rem;
+}
+
+.home__main-section {
+  background: url('/assets/images/imagem-hero.png') right -28px / 12rem auto no-repeat;
+}
+
+.mouse::before, .cart::before, .truck::before {
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.mouse::before {
+  background: var(--yellow) url('/assets/images/icons/mouse.svg') center no-repeat;
+}
+
+.cart::before {
+  background: var(--yellow) url('/assets/images/icons/white-cart.svg') center no-repeat;
+}
+
+.truck::before {
+  background: var(--yellow) url('/assets/images/icons/truck.svg') center no-repeat;
+}
+
+.card div:nth-child(2) {
+  margin-top: 1rem;
+}
+
+.topSpace {
+  margin-top: 90px;
+}
+
+.productCard {
+  position: relative;
+  height: 200px;
+}
+
+.howToCard {
+  margin-top: 2.5rem;
+}
+
+.card__howTo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem; 
+  padding-left: 27px; 
+  margin-top: 2.5rem;
+}
+
+.product__info {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product__name {
+  font-family: var(--font_1);
+  font-size: 2rem;
+  color: var(--black);
+  margin: 27px 35px 0 0;
+  text-align: left;
+}
+
+.product__price {
+  margin-top: 1rem;
+}
+
+.product__comprarButton {
+  margin-top: 2rem;
+  color: var(--yellow);
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.product__comprarButton::after {
+  content: '';
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  background: url('/assets/images/icons/seta.svg') no-repeat center;
+}
+
+.videos {
+  margin-top: 3.93rem;
+  padding: 0 1rem;
+}
+
+.videos__one {
+  width: 100%;
+  height: 20rem;
+  background: url('/assets/images/video.jpg') top / 100% 80% no-repeat;
+  margin-top: 12px;
+  z-index: 1;
+  position: relative;
+}
+
+.videos__one::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: var(--white) url('/assets/images/icons/play.svg') no-repeat center;
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video__legend {
+  position: absolute;
+  bottom: 0;
+  color: var(--black);
+  font-size: 1.375rem;
+}
+
+.video__legend span {
+  color: black;
+  opacity: 0.5;
+  display: block;
+  font-size: 1rem;
+}

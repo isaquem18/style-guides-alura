@@ -1,0 +1,13 @@
+:root {
+  --yellow: #FFCB47;
+  --white: #FFFFFF;
+  --black: #202020;
+  --black-opacity: hsla(0, 0%, 13%, 0.5);
+  --gray: #909090;
+
+  /* 900 */
+  --font_1: 'Elsie Swash Caps', cursive;
+
+  /* 400 700 */
+  --font_2: 'Montserrat', sans-serif;
+}

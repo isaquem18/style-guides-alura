@@ -1,0 +1,25 @@
+@import url('/assets/css/components/_variables.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+button:hover {
+  filter: brightness(2);
+}
+
+body, button, input, textarea {
+  font-family: var(--font_2);
+  color: var(--black-opacity);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  font-size: 1rem;
+}

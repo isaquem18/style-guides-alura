@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: url('/assets/images/icons/bg-texture.svg') repeat, url('/assets/images/bg-texture.png') center/cover no-repeat;
+  padding: 0 1rem;
+}
+
+.card {
+  width: 100%;
+  background-color: var(--white);
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
